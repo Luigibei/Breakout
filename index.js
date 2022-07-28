@@ -160,6 +160,11 @@ function checkForCollisions() {
   }
 }
 
+//restart
+document.querySelector('.restart-btn').addEventListener('click', function(){
+  window.location.reload();
+  return false;
+})
 
 function changeDirection() {
   if (xDirection === 2 && yDirection === 2) {

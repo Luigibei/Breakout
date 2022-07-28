@@ -3,8 +3,7 @@
     max-width: 560px;
     margin: auto;
     margin-right: 35%;
-    align-items: center;
-    
+    align-items: center;  
 }
 
 
@@ -13,6 +12,9 @@ body{
     padding: 20%;
     margin-left: auto;
     margin-right: auto; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -62,3 +64,24 @@ header{
     color:rgb(250, 251, 250)
 }
 
+.restart-btn{
+    color: rgb(255, 255, 255);
+    position: relative;
+    top:50%;
+    background-color:#11114d;
+    border-radius: 20% 20% 20% 20%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 1px 1px rgb(23, 10, 51);
+    padding: 6px;
+    border: 1px solid white;
+    float:right;
+
+}
+
+.restart-btn:hover {
+    background-color:#062a8e;
+    transition: 0.7s;
+    box-shadow: 0 0 0 3px #5a01a7;
+    outline-color: transparent;
+    outline-style:solid;
+}
