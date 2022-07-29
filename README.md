@@ -1,3 +1,3 @@
 # Breakout game 
-pratice
-thnaks and credits to kubowania and freecodecamp.
+<br>
+Thanks and credits to kubowania and freecodecamp.
